@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col bg-white border rounded-lg overflow-hidden">
+  <div class="flex flex-col bg-white border border-gray-100 rounded-lg overflow-hidden">
     <a href="#" class="group h-32 md:h-40 block bg-gray-100 overflow-hidden relative">
       <img
         :src="image"

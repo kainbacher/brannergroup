@@ -1,8 +1,8 @@
 {
-  "name": "ntn-boilerplate",
+  "name": "branner",
   "version": "2.1.4",
-  "description": "Nuxt-Tailwind-NetlifyCMS boilerplate",
-  "author": "Sven Parker <hello+dev@svenparker.com> (https://svenparker.com)",
+  "description": "Branner Gruppe GmbH",
+  "author": "Roland Kainbacher, kainbacher.io",
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",

@@ -2,6 +2,7 @@
   <footer class="p-4 bg-red-700 text-white md:p-8 lg:p-10 dark:bg-gray-800">
     <div class="mx-auto max-w-screen-xl text-center">
       <p class="my-6 text-md">
+        {{ siteInfo }}
         <span class="text-lg">Branner Gruppe GmbH</span><br/>
         <a href="tel:+435523511410" title="Branner anrufen">+43 5523 51141-0</a> • <a href="mailto:dispo@branner.at" title="E-Mail an Branner">dispo@branner.at</a><br/>
         Treietstraße 2 • 6833 Klaus • Österreich
@@ -25,4 +26,3 @@
     </div>
   </footer>
 </template>
-

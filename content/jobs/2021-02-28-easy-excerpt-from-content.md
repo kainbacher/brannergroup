@@ -1,21 +1,9 @@
 ---
+visible: true
 createdAt: 2021-02-28
-title: Easy excerpt from content
+title: Bürokraft m/w
 section: Autohaus
 ---
-
 You can add an excerpt easily by writing `<!--MORE-->` in lowercase in the content.
 
 Then continue on with the rest of the **markdown** content.
-
-```js{4,7}[posts.vue]
-computed: {
-  placeholderClasses() {
-    const classes = ['w-full','w-2/3','w-5/6'];
-    return [...Array.from(
-      { length: this.amount },
-      (value, index) => classes[index % classes.length]
-    )]; // repeats classes after one another
-  }
-},
-```

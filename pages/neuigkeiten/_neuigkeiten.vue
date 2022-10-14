@@ -10,23 +10,30 @@
             >
               {{ post.createdAt | formateDate }}
             </h5>
-            <span
-              v-if="post.section"
-              class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
-            >
-              {{ post.section }}</span
-            >
-            <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
-              {{ post.title }}
-            </h1>
+            <div class="flex flex-row justify-between">
+              <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
+                {{ post.title }}
+              </h1>
+              <div>
+                <span
+                  v-if="post.section"
+                  class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
+                >
+                  {{ post.section }}</span
+                >
+              </div>
+            </div>
             <p class="mt-1 mb-8">
               {{ post.description }}
             </p>
             <nuxt-content :document="post" />
           </article>
-          <nav class="mt-8" aria-label="zurück">
-            <router-back class="block" />
-          </nav>
+          <nuxt-link
+            to="/neuigkeiten"
+            class="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-8"
+          >
+            Neuigkeiten
+          </nuxt-link>
         </div>
       </div>
     </section>
@@ -38,7 +45,7 @@ export default {
   async asyncData({ $content, params, error }) {
     let post;
     try {
-      post = await $content("blog", params.blog).fetch();
+      post = await $content("blog", params.blog).where({ visible: true }).fetch();
     } catch (e) {
       error({ message: "Neuigkeit nicht gefunden" });
     }

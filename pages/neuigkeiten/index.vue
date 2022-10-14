@@ -19,9 +19,9 @@ export default {
   async asyncData({ $content, error }) {
     let posts;
     try {
-      posts = await $content("blog").fetch();
+      posts = await $content("blog").where({ visible: true }).fetch();
     } catch (e) {
-      error({ message: "Blog posts not found" });
+      error({ message: "Keine Neuigkeiten vorhanden" });
     }
     return { posts };
   },

@@ -1,8 +1,15 @@
 ---
 createdAt: 2021-02-18
 title: Erster Blog Artikel
-description: Das ist der erste Artikel
+description: >-
+  Das ist der erste Artikel. Addidit nunc: finita tua celatos vacuos Morpheus
+  tigridis videre. Et an in ne
+
+  scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
+
+  fuit ulla Thestorides.
 section: Autohaus
+visible: true
 ---
 ## Sit liquentibus sinu verbis et spatiarer laedar
 
@@ -11,13 +18,19 @@ Lorem markdownum viros voce nostri tumulandus contegat tua **prior** umbra
 detinet moenia horrendus viri. Amo tophis Idaeis [blog](/blog)
 venerat.
 
+
+
+![](/img/branner-autohaus.jpg)
+
+
+
+
+
 Sic **nostrae habet**: este, sua illic auctor causam. Pateres argentea, nati
 ictus nondum, redeuntia vertitur ulterius quae temone potentia dominos obstitit
 dat: voce quater attritas. Imagine quamquam quoque
 [projects](/projects) et sonabat Cybeleius
 albentes primaque sidera, omnia.
-
-
 
 ## Apud sunt
 

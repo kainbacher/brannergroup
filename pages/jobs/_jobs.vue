@@ -24,9 +24,13 @@
             </p>
             <nuxt-content :document="post" />
           </article>
-          <nav class="mt-8" aria-label="zurück">
-            <router-back class="block" />
-          </nav>
+          <nuxt-link
+            to="/jobs"
+            class="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-8"
+          >
+            Zu den Stellenausschreibungen
+          </nuxt-link>
+
         </div>
       </div>
     </section>
@@ -38,9 +42,9 @@ export default {
   async asyncData({ $content, params, error }) {
     let post;
     try {
-      post = await $content("blog", params.blog).fetch();
+      post = await $content("jobs", params.blog).where({ visible: true }).fetch();
     } catch (e) {
-      error({ message: "Neuigkeit nicht gefunden" });
+      error({ message: "Stellenausschreibung nicht gefunden" });
     }
     post = post.slice(0, 1).shift();
     return { post };

@@ -6,21 +6,26 @@
         class="py-8 flex flex-wrap lg:flex-nowrap hover:bg-gray-100"
       >
         <div class="lg:flex-grow pr-4">
+          <!--
           <div class="flex flex-col">
-            <!-- <span class="font-semibold title-font text-gray-700 uppercase">{{ category }}</span> -->
             <span class="text-sm text-gray-500">{{ post.createdAt | formateDate }}</span>
           </div>
-          <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
-            {{ post.title }}
-          </h1>
+          -->
+          <div class="flex flex-row justify-between">
+            <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
+              {{ post.title }}
+            </h1>
+            <div>
+              <span
+                v-if="post.section"
+                class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
+              >
+                {{ post.section }}</span
+              >
+            </div>
+          </div>
           <p class="leading-relaxed">{{ post.description }}</p>
-          <span
-            v-if="post.section"
-            class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
-          >
-            {{ post.section }}</span
-          >
-          <br>
+
           <span class="text-red-500 inline-flex items-center mt-4">
             Weiterlesen
             <svg
@@ -48,7 +53,7 @@
     </div>
   </div>
   <p v-else class="max-w-5xl mx-auto">
-    {{ amount > 1 ? "Posts not found" : "Post not found" }}
+    Keine Neuigkeiten vorhanden.
   </p>
 </template>
 
@@ -108,6 +113,7 @@ export default {
       sortBy = this.sortBy
     ) {
       return this.$content(postType)
+        .where({ visible: true })
         .sortBy(sortBy.key, sortBy.direction)
         .limit(amount)
         .fetch()

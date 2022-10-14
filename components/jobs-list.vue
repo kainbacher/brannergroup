@@ -3,39 +3,26 @@
     <div v-for="(post, index) in posts" :key="index">
       <nuxt-link
         :to="`/jobs/${post.slug}`"
-        class="py-8 flex flex-wrap lg:flex-nowrap hover:bg-gray-100"
+        class="
+        py-8 flex flex-wrap lg:flex-nowrap border border-gray-300 rounded-md p-8 mb-8
+        hover:bg-red-50 hover:border-red-200
+        "
       >
         <div class="lg:flex-grow pr-4">
-          <div class="flex flex-col">
-            <!-- <span class="font-semibold title-font text-gray-700 uppercase">{{ category }}</span> -->
-            <span class="text-sm text-gray-500">{{ post.createdAt | formateDate }}</span>
+          <div class="flex flex-row justify-between">
+            <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
+              {{ post.title }}
+            </h1>
+            <div>
+              <span
+                v-if="post.section"
+                class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
+              >
+                {{ post.section }}
+              </span>
+            </div>
           </div>
-          <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
-            {{ post.title }}
-          </h1>
           <p class="leading-relaxed">{{ post.description }}</p>
-          <span
-            v-if="post.section"
-            class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
-          >
-            {{ post.section }}</span
-          >
-          <br>
-          <span class="text-red-500 inline-flex items-center mt-4">
-            Weiterlesen
-            <svg
-              class="w-4 h-4 ml-2"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path d="M5 12h14"></path>
-              <path d="M12 5l7 7-7 7"></path>
-            </svg>
-          </span>
         </div>
       </nuxt-link>
     </div>
@@ -47,37 +34,24 @@
       </content-placeholders>
     </div>
   </div>
-  <p v-else class="max-w-5xl mx-auto">
-    {{ amount > 1 ? "Posts not found" : "Post not found" }}
-  </p>
+  <div v-else class="max-w-5xl mx-auto">
+    <p class="mb-8">
+      Aktuell sind keine Stellenangebote verfügbar. Gerne können Sie uns Ihre
+      Initiativbewerbung per E-Mail zusenden.
+    </p>
+    <a
+      href="mailto:dispo@branner.at?subject=Initiativbewerbung%20an%20die%20Branner%20Gruppe"
+      class="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-4 md:mt-0"
+      title="E-Mail an Branner Gruppe GmbH"
+    >
+      Initiativbewerbung senden
+    </a>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Jobs",
-  props: {
-    postType: {
-      type: String,
-      default: "blog",
-      validator: (val) => ["blog", "projects"].includes(val),
-    },
-    amount: {
-      // ? https://content.nuxtjs.org/fetching#limitn
-      type: Number,
-      default: 10,
-      validator: (val) => val >= 0 && val < 100,
-    },
-    sortBy: {
-      // ? https://content.nuxtjs.org/fetching#sortbykey-direction
-      type: Object,
-      default: () => ({
-        key: "slug",
-        direction: "desc", // you probably want 'asc' here
-      }),
-      validator: (obj) =>
-        typeof obj.key === "string" && typeof obj.direction === "string",
-    },
-  },
   data() {
     return {
       posts: [],
@@ -102,16 +76,14 @@ export default {
       const date = new Date(dateString);
       return date.toLocaleDateString(process.env.lang) || "";
     },
-    async fetchPosts(
-      postType = this.postType,
-      amount = this.amount,
-      sortBy = this.sortBy
-    ) {
-      return this.$content(postType)
-        .sortBy(sortBy.key, sortBy.direction)
-        .limit(amount)
-        .fetch()
-        .catch((err) => console.error(err) || []);
+    async fetchPosts() {
+      return (
+        this.$content("jobs")
+          .where({ visible: true })
+          // .sortBy(sortBy.key, sortBy.direction)
+          .fetch()
+          .catch((err) => console.error(err) || [])
+      );
     },
   },
 };

@@ -1,68 +1,28 @@
 ---
+visible: true
 createdAt: 2021-02-18
-title: Mechaniker
-description: Remove all of the .md-files in the /content folder and go at it!
-section: Autohaus
+title: Mechaniker/in m/w/d
+description: Wir suchen einen Mechaniker/in für unsere Werkstatt in Klaus.
+section: Branner Mobility
 ---
+## Aufgaben
 
-## Sit liquentibus sinu verbis et spatiarer laedar
+* Sichere, saubere und fehlerfreie Ausführung aller Arbeiten im Autoservice und in der PKW-Montage
+* Serviceorientierter Umgang mit unseren Kunden
+* Durchführung von KFZ-Service Reparaturarbeiten gemäß §57a
+* Erstellen von EDV-gestützten Fehlerdiagnosen
 
-Lorem markdownum viros voce nostri tumulandus contegat tua **prior** umbra
-**Pelopeia**. Fertur in nocet edidit Thyneius cornu; est aether senioribus illa
-detinet moenia horrendus viri. Amo tophis Idaeis [blog](/blog)
-venerat.
+## P﻿rofil
 
-Sic **nostrae habet**: este, sua illic auctor causam. Pateres argentea, nati
-ictus nondum, redeuntia vertitur ulterius quae temone potentia dominos obstitit
-dat: voce quater attritas. Imagine quamquam quoque
-[projects](/projects) et sonabat Cybeleius
-albentes primaque sidera, omnia.
+* Abgeschlossene KFZ-Lehre
+* §57a Ausbildungspass oder mind. 2 Jahre Beschäftigung in einem §57a Betrieb wünschenswert
+* Führerschein der Klasse B
+* Gute EDV-Kenntnisse
 
-## Apud sunt
+## Unser Angebot
 
-Addidit nunc: finita tua celatos vacuos Morpheus tigridis videre. Et an in ne
-scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
-fuit ulla Thestorides. Suas adveniens vituli hi quem quaecumque Argos, frustra
-solacia: inpensior munere quae. Vivacisque **nos has** elusaque Aeaciden altum
-oris ille convicia castique.
-
-```js{1,4}[posts.vue]
-formatDate(dateString) {
-  const date = new Date(dateString)
-  return date.toLocaleDateString(process.env.lang) || ''
-},
-async fetchPosts(
-    postType = this.postType,
-    amount = this.amount,
-    sortBy = this.sortBy,
-  ) {
-  return this.$content(postType)
-    .sortBy(sortBy.key, sortBy.direction)
-    .limit(amount)
-    .fetch()
-    .catch((err) => {
-      error({ statusCode: 404, message: amount > 1 ? 'Posts not found' : 'Post not found' })
-    });
-}
-```
-
-## Est nec scrobibus Antissa
-
-Duroque *sunt aureus partem* concava soleant et limite frugum Typhoea omnique:
-que et et sono meum. Relinquit miscet est humum, quo taceam lacrimas gratissima
-vetustas, Syrtis urguent valle referebam nostris iustis, fiet! Deos per totidem
-agris! Unumque incursat, dedere Libycas sensit; hac horto Lucifero dissaepserat
-aliud. Aeginam memorabile sororibus excepto.
-
-> Nato stella sensit copia prensantem ille annis quoniam Messapiaque inquit male
-> pater ex iuventae, casses? **Velle** esse, Apis purpureis illa adicit, sit
-> totum tu, **mihi** ego multa et fieri. Acu Cipe ut relabens capillos per:
-> scelus arae conplevit torquet. Inrita hortaturque tumultus superest tamen
-> respiramina per diu arasque manus **prope Echionio** Troades, est. Tempus
-> arbore in ita.
-
-Ad celeri est et Tremorque reliquerat fruges inplicuit. Dictis libratum
-[cuncta](http://quisquis.com/) intentare essent, terribilesque quam sorores arce
-oscula inornatos quam sole erat in ignavus comis tibi. Latoius cernentem es hunc
-ferunt Ionio nec saucia cupiunt erat. Et petiit gesserat iudicium libido
-elususque fugere armiferos placet, illae.
+1. Eine umfangreiche und spannende Aufgabe in einem dynamischen und ergebnisorientierten Arbeitsumfeld
+2. Ein sicherer Arbeitsplatz in einem internationalen Unternehmen
+3. Attraktive Aus- und Weiterbildungsmöglichkeiten
+4. Sonderkonditionen für Mitarbeiter
+5. Geboten wird ein Brutto-Monatsgehalt nach KV-Handel mit Bereitschaft zur Überzahlung je nach Qualifikation und Berufserfahrung

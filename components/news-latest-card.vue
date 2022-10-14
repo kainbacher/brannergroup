@@ -1,5 +1,8 @@
 <template>
-  <nuxt-link :to="link" class="p-12 md:w-1/2 flex flex-col items-start">
+  <nuxt-link
+    :to="link"
+    class="p-12 md:w-1/2 flex flex-col items-start border-b-2 border-gray-100 hover:border-red-500"
+  >
     <span
       class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
       >{{ section }}</span
@@ -33,31 +36,31 @@
 </template>
 
 <script>
-  export default {
-    name: 'Contact',
-    props: {
-      title: {
-        type: String,
-        default: '',
-      },
-      section: {
-        type: String,
-        default: '',
-      },
-      text: {
-        type: String,
-        default: '',
-      },
-      link: {
-        type: String,
-        default: '',
-      },
+export default {
+  name: "Contact",
+  props: {
+    title: {
+      type: String,
+      default: "",
     },
-    data() {
-      return {
-        posts: [],
-        loading: true,
-      }
+    section: {
+      type: String,
+      default: "",
     },
-  }
+    text: {
+      type: String,
+      default: "",
+    },
+    link: {
+      type: String,
+      default: "",
+    },
+  },
+  data() {
+    return {
+      posts: [],
+      loading: true,
+    };
+  },
+};
 </script>

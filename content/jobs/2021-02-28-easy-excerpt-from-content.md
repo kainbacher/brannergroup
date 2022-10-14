@@ -2,7 +2,7 @@
 visible: true
 createdAt: 2021-02-28
 title: Bürokraft m/w
-section: Autohaus
+section: Branner Group
 ---
 You can add an excerpt easily by writing `<!--MORE-->` in lowercase in the content.
 

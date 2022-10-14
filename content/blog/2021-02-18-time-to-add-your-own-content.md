@@ -1,4 +1,5 @@
 ---
+visible: true
 createdAt: 2021-02-18
 title: Erster Blog Artikel
 description: >-
@@ -8,8 +9,7 @@ description: >-
   scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
 
   fuit ulla Thestorides.
-section: Autohaus
-visible: true
+section: Branner Fitness
 ---
 ## Sit liquentibus sinu verbis et spatiarer laedar
 

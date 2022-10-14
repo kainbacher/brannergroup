@@ -1,8 +1,7 @@
 ---
+visible: true
 createdAt: 2022-09-01T05:18:34.775Z
 title: Blog Artikel
-section: Autohaus
-visible: true
 description: >-
   In excepteur adipisicing consequat elit sunt esse officia sint dolore sunt
   quis ea dolore amet ea. Addidit nunc: finita tua celatos vacuos Morpheus
@@ -11,6 +10,7 @@ description: >-
   scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
 
   fuit ulla Thestorides.
+section: Branner Mobility
 ---
 In excepteur adipisicing consequat elit sunt esse officia sint dolore sunt quis ea dolore amet ea.
 

@@ -1,7 +1,7 @@
 ---
 visible: true
 createdAt: 2021-03-01
-title: ELEKTRONIKER/MECHATRONIKER (M/W/D)
+title: KFZ Mechaniker (m/w/d)
 description: And what to expect when running a repo-based CMS
 section: Branner Fitness
 ---

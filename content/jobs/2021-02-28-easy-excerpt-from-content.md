@@ -1,7 +1,7 @@
 ---
 visible: true
 createdAt: 2021-02-28
-title: Bürokraft m/w
+title: Team Assistent m/w
 description: Wir suchen eine Bürokraft
 section: Branner Group
 ---

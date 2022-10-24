@@ -10,17 +10,29 @@
           url="http://www.branner-autohaus.at/"
         >
           <div>
-            <p class="text-gray-500 text-sm 2xl:text-base mb-8">
+            <p class="text-gray-500 text-sm 2xl:text-base mb-4">
               <a href="mailto:patrick@branner.at" title="E-Mail an Branner Mobility"
                 >patrick@branner.at</a
               ><br />
+              <br />
               <a href="tel:+43552357200" title="Bei Branner Mobility anrufen"
                 >+43 5523 57 200</a
-              ><br />
+              >
               <br />
               Treietstraße 2<br />
               6833 Klaus
             </p>
+            <hr class="mb-4">
+            <p class="text-gray-500 text-sm 2xl:text-base mb-4">
+              <a href="tel:+43555262387" title="Bei Branner Mobility anrufen"
+                >+43 5552 62 387</a
+              >
+              <br />
+              Walgaustraße 83<br />
+              6714 Nüziders
+            </p>
+            </hr>
+            <hr>
             <div class="flex flex-row justify-between mb-4">
               <a href="http://www.branner-autohaus.at/" target="_blank" title="Nissan">
                 <img src="/nissan.png" alt="Nissan" class="h-24 w-24" height="100" width="100" />
@@ -64,9 +76,10 @@
             <a href="mailto:erdenwerk@branner.at" title="E-Mail an Branner Erdenwerk"
               >erdenwerk@branner.at</a
             ><br />
+            <br />
             <a href="tel:+43552236644" title="Bei Branner ERdenwerk anrufen"
               >+43 5522 366 44</a
-            ><br />
+            >
             <br />
             Bundesstraße 120 2<br />
             6830 Rankweil
@@ -81,10 +94,10 @@
             <a href="mailto:erdenwerk@branner.at" title="E-Mail an Branner Erdenwerk"
               >erdenwerk@branner.at</a
             ><br />
+            <br />
             <a href="tel:+43552351141" title="Bei Branner ERdenwerk anrufen"
               >+43 5523 511 41</a
             ><br />
-            <br />
             Treietstraße 2<br />
             6833 Klaus
           </p>
@@ -100,10 +113,10 @@
               title="E-Mail an Branner Erdenwerk"
               >dominik.pircher@branner.at</a
             ><br />
+            <br />
             <a href="tel:+436602336065" title="Bei Branner ERdenwerk anrufen"
               >+43 660 233 60 65</a
             ><br />
-            <br />
             Treietstraße 2<br />
             6833 Klaus
           </p>

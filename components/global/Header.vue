@@ -106,9 +106,9 @@
           >Neuigkeiten</nuxt-link
         >
       </nav>
-      <a
-        href="mailto:dispo@branner.at"
-        class="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-4 md:mt-0"
+      <button
+        @click="mailto('dispo')"
+        class="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0"
         title="E-Mail an Branner Gruppe GmbH"
       >
         E-Mail
@@ -123,7 +123,7 @@
         >
           <path d="M5 12h14M12 5l7 7-7 7"></path>
         </svg>
-      </a>
+      </button>
     </div>
   </header>
 </template>
@@ -131,6 +131,11 @@
 <script>
 export default {
   name: "Header",
+  methods: {
+    mailto(email) {
+      window.location.href = 'mailto:' + email + '@branner.at';
+    }
+  },
 };
 </script>
 

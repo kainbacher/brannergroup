@@ -19,20 +19,6 @@
             <br />
             6833 Klaus / Österreich
             <br />
-            <a
-              href="mailto:dispo@branner.at"
-              title="E-Mail an dispo@branner.at"
-              class="text-red-500 hover:text-red-700"
-              >dispo@branner.at</a
-            >
-            <br />
-            <a
-              href="https://www.branner.at"
-              title="IG Carsharing Austria"
-              class="text-red-500 hover:text-red-700"
-              >www.branner.at</a
-            >
-            <br />
           </p>
           <h2 class="mt-8 mb-2 text-2xl">Inhalt</h2>
           <p>

@@ -1,7 +1,7 @@
 ---
 visible: true
 createdAt: 2021-02-18
-title: Erster Blog Artikel
+title: Neuer Standort in Nüziders
 description: >-
   Das ist der erste Artikel. Addidit nunc: finita tua celatos vacuos Morpheus
   tigridis videre. Et an in ne
@@ -9,7 +9,7 @@ description: >-
   scelus pluviaque fluitque consurgere dixit inficit est fecere atque voce perque
 
   fuit ulla Thestorides.
-section: Branner Fitness
+section: Branner Mobility
 ---
 ## Sit liquentibus sinu verbis et spatiarer laedar
 

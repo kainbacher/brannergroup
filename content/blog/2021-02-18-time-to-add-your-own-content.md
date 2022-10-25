@@ -1,7 +1,7 @@
 ---
 visible: true
 createdAt: 2021-02-18
-title: Erster Blog Artikel
+title: Neuer Standort in Nüziders
 description: >-
   Das ist der erste Artikel. Addidit nunc: finita tua celatos vacuos Morpheus
   tigridis videre. Et an in ne

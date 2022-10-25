@@ -1,9 +1,7 @@
 <template>
   <div class="pb-6 sm:pb-8 lg:pb-12">
     <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
-      <div
-        class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4"
-      >
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
         <contact-card
           name="Branner Mobility"
           image="/branner-mobility.jpg"
@@ -11,9 +9,10 @@
         >
           <div>
             <p class="text-gray-500 text-sm 2xl:text-base mb-4">
-              <a href="mailto:patrick@branner.at" title="E-Mail an Branner Mobility"
-                >patrick@branner.at</a
-              ><br />
+              <button @click="mailto('patrick')" title="E-Mail an Branner Mobility">
+                E-Mail
+              </button>
+              <br />
               <br />
               <a href="tel:+43552357200" title="Bei Branner Mobility anrufen"
                 >+43 5523 57 200</a
@@ -29,7 +28,7 @@
                 6833 Klaus
               </a>
             </p>
-            <hr class="mb-4">
+            <hr class="mb-4" />
             <p class="text-gray-500 text-sm 2xl:text-base mb-4">
               <a href="tel:+43555262387" title="Bei Branner Mobility anrufen"
                 >+43 5552 62 387</a
@@ -45,14 +44,26 @@
                 6714 Nüziders
               </a>
             </p>
-            </hr>
-            <hr>
+            <hr />
+            <hr />
             <div class="flex flex-row justify-between mb-4">
               <a href="http://www.branner-autohaus.at/" target="_blank" title="Nissan">
-                <img src="/nissan.png" alt="Nissan" class="h-24 w-24" height="100" width="100" />
+                <img
+                  src="/nissan.png"
+                  alt="Nissan"
+                  class="h-24 w-24"
+                  height="100"
+                  width="100"
+                />
               </a>
               <a href="https://www.hofele.com/" target="_blank" title="Hofele">
-                <img src="/hofele.png" alt="Hofele" class="h-24 w-24" height="100" width="100" />
+                <img
+                  src="/hofele.png"
+                  alt="Hofele"
+                  class="h-24 w-24"
+                  height="100"
+                  width="100"
+                />
               </a>
             </div>
           </div>
@@ -63,9 +74,10 @@
           url="https://www.branner-fitness.at/"
         >
           <p class="text-gray-500 text-sm 2xl:text-base mb-4">
-            <a href="mailto:fitness@branner.at" title="E-Mail an Branner Fitness"
-              >fitness@branner.at</a
-            ><br />
+            <button @click="mailto('fitness')" title="E-Mail an Branner Fitness">
+              E-Mail
+            </button>
+            <br />
             <br />
             <a href="tel:+43552246118" title="Bei Branner Fitness anrufen"
               >+43 5522 46 118</a
@@ -82,7 +94,7 @@
           </p>
           <hr class="mb-4" />
           <p class="text-gray-500 text-sm 2xl:text-base mb-8">
-            <a href="tel:+43552246118" title="Bei Branner Fitness anrufen"
+            <a href="tel:+43552277241" title="Bei Branner Fitness anrufen"
               >+43 5522 77 241</a
             ><br />
             <a
@@ -102,9 +114,10 @@
           url="https://www.branner-erdenwerk.at/"
         >
           <p class="text-gray-500 text-sm 2xl:text-base mb-8">
-            <a href="mailto:erdenwerk@branner.at" title="E-Mail an Branner Erdenwerk"
-              >erdenwerk@branner.at</a
-            ><br />
+            <button @click="mailto('erdenwerk')" title="E-Mail an Branner Erdenwerk">
+              E-Mail
+            </button>
+            <br />
             <br />
             <a href="tel:+43552236644" title="Bei Branner ERdenwerk anrufen"
               >+43 5522 366 44</a
@@ -127,13 +140,12 @@
           url="https://www.branner-entsorgung.at/"
         >
           <p class="text-gray-500 text-sm 2xl:text-base mb-8">
-            <a href="mailto:dispo@branner.at" title="E-Mail an Branner Erdenwerk"
-              >
-              dispo@branner.at
-              </a>
-              <br />
+            <button @click="mailto('dispo')" title="E-Mail an Branner Entsorgung">
+              E-Mail
+            </button>
             <br />
-            <a href="tel:+43552351141" title="Bei Branner ERdenwerk anrufen"
+            <br />
+            <a href="tel:+43552351141" title="Bei Branner Entsorgung anrufen"
               >+43 5523 511 41</a
             ><br />
             <a
@@ -153,13 +165,15 @@
           url="https://www.branner-oberflaechen.at/"
         >
           <p class="text-gray-500 text-sm 2xl:text-base mb-8">
-            <a
-              href="mailto:dominik.pircher@branner.at"
-              title="E-Mail an Branner Erdenwerk"
-              >dominik.pircher@branner.at</a
-            ><br />
+            <button
+              @click="mailto('dominik.pircher')"
+              title="E-Mail an Branner Oberflächen"
+            >
+              E-Mail
+            </button>
             <br />
-            <a href="tel:+436602336065" title="Bei Branner ERdenwerk anrufen"
+            <br />
+            <a href="tel:+436602336065" title="Bei Branner Oberflächen anrufen"
               >+43 660 233 60 65</a
             ><br />
             <a
@@ -177,3 +191,20 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "ContactList",
+  methods: {
+    mailto(email) {
+      window.location.href = "mailto:" + email + "@branner.at";
+    },
+  },
+};
+</script>
+
+<style scoped>
+button {
+  @apply hover:text-gray-800;
+}
+</style>

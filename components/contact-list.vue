@@ -3,7 +3,7 @@
     <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
         <contact-card
-          name="Branner Mobility"
+          name="Mobility"
           image="/branner-mobility.jpg"
           url="http://www.branner-autohaus.at/"
         >
@@ -69,7 +69,7 @@
           </div>
         </contact-card>
         <contact-card
-          name="Branner Fitness"
+          name="Fitness"
           image="/branner-fitness.jpg"
           url="https://www.branner-fitness.at/"
         >
@@ -109,7 +109,7 @@
           </p>
         </contact-card>
         <contact-card
-          name="Branner Erdenwerk"
+          name="Erdenwerk"
           image="/branner-erdenwerk.jpg"
           url="https://www.branner-erdenwerk.at/"
         >
@@ -160,7 +160,7 @@
           </p>
         </contact-card>
         <contact-card
-          name="Branner Oberflächenbehandlung"
+          name="Oberflächenbehandlung"
           image="/branner-oberflaechen.jpg"
           url="https://www.branner-oberflaechen.at/"
         >

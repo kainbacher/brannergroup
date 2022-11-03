@@ -4,9 +4,6 @@
       <div
         class="max-w-xl flex flex-col items-center text-center pt-8 pb-8 lg:pt-6 lg:pb-4 xl:pt-16 xl:pb-8"
       >
-        <p class="text-red-500 md:text-lg xl:text-xl font-semibold mb-2 md:mb-2">
-          Die Branner Welt
-        </p>
         <h1
           class="text-gray-800 text-3xl lg:text-4xl xl:text-6xl font-extrabold mb-8 md:mb-12 uppercase"
         >

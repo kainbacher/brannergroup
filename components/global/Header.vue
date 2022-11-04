@@ -33,7 +33,7 @@ export default {
 </script>
 
 <style scoped>
-a.nuxt-link-active {
-  @apply underline text-gray-800;
+nav a.nuxt-link-active {
+  @apply bg-red-600;
 }
 </style>

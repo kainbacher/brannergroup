@@ -4,16 +4,13 @@
       <div class="container px-5 mx-auto flex flex-wrap">
         <div class="md:w-3/5 mx-auto">
           <article>
-            <h5
-              v-if="post.createdAt"
-              class="inline-block py-1 my-2 bg-gray text-gray-400 text-sm font-medium rounded-sm whitespace-no-wrap"
-            >
-              {{ post.createdAt | formateDate }}
-            </h5>
-            <div class="flex flex-row justify-between">
-              <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
-                {{ post.title }}
-              </h1>
+            <div class="flex flex-col md:flex-row justify-between items-baseline mb-4">
+              <h5
+                v-if="post.createdAt"
+                class="inline-block py-1 bg-gray text-gray-400 text-sm font-medium rounded-sm whitespace-no-wrap"
+              >
+                {{ post.createdAt | formateDate }}
+              </h5>
               <div>
                 <span
                   v-if="post.section"
@@ -23,6 +20,9 @@
                 >
               </div>
             </div>
+            <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
+              {{ post.title }}
+            </h1>
             <p class="mt-1 mb-8">
               {{ post.description }}
             </p>
@@ -44,12 +44,15 @@
 export default {
   async asyncData({ $content, params, error }) {
     let post;
+    console.log(params);
     try {
-      post = await $content("blog", params.blog).where({ visible: true }).fetch();
+      post = await $content("blog/" + params.neuigkeiten)
+        .where({ visible: true })
+        .fetch();
+      console.log(post);
     } catch (e) {
       error({ message: "Neuigkeit nicht gefunden" });
     }
-    post = post.slice(0, 1).shift();
     return { post };
   },
   methods: {

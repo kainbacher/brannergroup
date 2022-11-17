@@ -28,12 +28,27 @@
             </p>
             <nuxt-content :document="post" />
           </article>
-          <nuxt-link
-            to="/jobs"
-            class="inline-flex items-center bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-700 rounded text-base mt-8"
+          <a
+            href="mailto:info@branner.at"
+            class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0 inline-flex items-center"
           >
-            Zu den Stellenausschreibungen
-          </nuxt-link>
+            <svg
+              class="mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+            Bewerben
+          </a>
         </div>
       </div>
     </section>

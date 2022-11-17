@@ -8,10 +8,10 @@
         class="md:ml-auto flex flex-wrap items-center text-base justify-center"
       >
         <nuxt-link to="/jobs" class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0">
-          Jobs
-          <!--
-          <span class="rounded-full bg-red-500 absolute text-xs text-white h-4 w-4 -right-2 -top-2 flex justify-center items-center">5</span>
-            -->
+          Karriere
+        </nuxt-link>
+        <nuxt-link to="/lehre" class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0">
+          Lehre
         </nuxt-link>
         <nuxt-link to="/neuigkeiten" class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0"
           >Neuigkeiten</nuxt-link

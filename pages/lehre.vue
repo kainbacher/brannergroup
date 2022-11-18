@@ -1,14 +1,14 @@
 <template>
   <main>
     <section
-      class="text-gray-600 body-font overflow-hidden py-24 max-w-6xl ml-auto mr-auto"
+      class="text-gray-600 body-font overflow-hidden pt-24 max-w-6xl ml-auto mr-auto"
     >
       <div class="container px-5 mb-16 border-b-b p4-4 pb-8 md:w-3/5 mx-auto">
-        <div class="mb-16">
-          <h1 class="sm:text-3xl text-3xl font-medium title-font text-gray-900 mb-8">
-            Lehre
+        <div class="mb-24">
+          <h1 class="sm:text-3xl text-3xl font-medium title-font text-gray-900 mb-4">
+            Lehre mit Zukunft
           </h1>
-          <p class="mb-4">
+          <p class="mb-8">
             Wir bilden in der gesamten Branner Unternehmensgruppe derzeit sieben Lehrlinge
             in vier verschiedenen Lehrberufen aus. Eine Lehrausbildung bei uns sichert dir
             eine fundierte Ausbildung und einen guten Start in dein Berufsleben. Frag bei

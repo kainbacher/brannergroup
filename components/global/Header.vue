@@ -7,7 +7,7 @@
       <nav
         class="md:ml-auto flex flex-wrap items-center text-base justify-center"
       >
-        <nuxt-link to="/jobs" class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0">
+        <nuxt-link to="/karriere" class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0">
           Karriere
         </nuxt-link>
         <nuxt-link to="/lehre" class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0">

@@ -20,8 +20,13 @@
           class="flex flex-wrap justify-center items-center mb-6 text-gray-900 dark:text-white"
         >
           <li>
-            <nuxt-link to="/jobs" class="mr-4 text-white hover:underline md:mr-6"
-              >Jobs</nuxt-link
+            <nuxt-link to="/karriere" class="mr-4 text-white hover:underline md:mr-6"
+              >Karriere</nuxt-link
+            >
+          </li>
+          <li>
+            <nuxt-link to="/lehre" class="mr-4 text-white hover:underline md:mr-6"
+              >Lehre</nuxt-link
             >
           </li>
           <li>

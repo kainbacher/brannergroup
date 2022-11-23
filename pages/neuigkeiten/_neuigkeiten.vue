@@ -5,6 +5,7 @@
         <div class="md:w-3/5 mx-auto">
           <nuxt-link
             to="/neuigkeiten"
+            title="Zurück zur Übersicht"
             class="
             inline-flex items-center bg-gray-100 text-gray-500 border py-1 px-3 rounded text-base mb-8
             focus:outline-none

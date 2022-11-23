@@ -2,7 +2,7 @@
   <div v-if="posts.length > 0" class="divide-y-2 divide-gray-100">
     <div v-for="(post, index) in posts" :key="index">
       <nuxt-link
-        :to="`/jobs/${post.slug}`"
+        :to="`/karriere/${post.slug}`"
         class="
         py-8 flex flex-wrap lg:flex-nowrap border border-white bg-white rounded-md p-8 mb-8
        hover:shadow-md transition duration-300 ease-in-out

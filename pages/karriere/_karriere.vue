@@ -3,13 +3,31 @@
     <section class="text-gray-600 body-font py-24" v-if="post">
       <div class="container px-5 mx-auto flex flex-wrap">
         <div class="md:w-3/5 mx-auto">
-          <article>
-            <h5
-              v-if="post.createdAt"
-              class="inline-block py-1 my-2 bg-gray text-gray-400 text-sm font-medium rounded-sm whitespace-no-wrap"
+          <nuxt-link
+            to="/karriere"
+            class="
+            inline-flex items-center bg-gray-100 text-gray-500 border py-1 px-3 rounded text-base mb-8
+            focus:outline-none
+            hover:bg-white"
+          >
+            <svg
+              class="mr-2"
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             >
-              {{ post.createdAt | formateDate }}
-            </h5>
+              <line x1="19" y1="12" x2="5" y2="12"></line>
+              <polyline points="12 19 5 12 12 5"></polyline>
+            </svg>
+            Karriere
+          </nuxt-link>
+          <article class="my-8">
             <div class="flex flex-row justify-between">
               <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
                 {{ post.title }}

@@ -1,5 +1,5 @@
-site_url: https://www.branner.at/
-logo_url: https://www.branner.at/icon.png
+site_url: https://branner.netlify.app/
+logo_url: https://branner.netlify.app/icon.png
 
 # publish_mode: editorial_workflow
 backend:

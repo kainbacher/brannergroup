@@ -3,7 +3,7 @@
     <div v-for="(post, index) in posts" :key="index">
       <nuxt-link
         :to="`/neuigkeiten/${post.slug}`"
-        class="py-8 flex flex-wrap lg:flex-nowrap hover:bg-gray-100"
+        class="p-8 mb-8 rounded-md flex flex-wrap lg:flex-nowrap bg-white hover:shadow-md transition duration-300 ease-in-out"
       >
         <div class="lg:flex-grow pr-4">
           <!--
@@ -12,13 +12,13 @@
           </div>
           -->
           <div class="flex flex-row justify-between">
-            <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
+            <h2 class="text-xl font-medium text-gray-900 title-font mb-2">
               {{ post.title }}
-            </h1>
+            </h2>
             <div>
               <span
                 v-if="post.section"
-                class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
+                class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest whitespace-nowrap"
               >
                 {{ post.section }}</span
               >

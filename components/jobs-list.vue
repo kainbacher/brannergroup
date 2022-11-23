@@ -4,19 +4,19 @@
       <nuxt-link
         :to="`/jobs/${post.slug}`"
         class="
-        py-8 flex flex-wrap lg:flex-nowrap border border-gray-300 rounded-md p-8 mb-8
-        hover:bg-red-50 hover:border-red-200
+        py-8 flex flex-wrap lg:flex-nowrap border border-white bg-white rounded-md p-8 mb-8
+       hover:shadow-md transition duration-300 ease-in-out
         "
       >
         <div class="lg:flex-grow pr-4">
           <div class="flex flex-row justify-between">
-            <h1 class="text-2xl font-medium text-gray-900 title-font mb-2">
+            <h2 class="text-xl font-medium text-gray-900 title-font mb-2">
               {{ post.title }}
-            </h1>
+            </h2>
             <div>
               <span
                 v-if="post.section"
-                class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest"
+                class="inline-block py-1 px-2 rounded bg-red-100 text-red-500 text-xs font-medium tracking-widest whitespace-nowrap"
               >
                 {{ post.section }}
               </span>

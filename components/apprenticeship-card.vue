@@ -1,13 +1,13 @@
 <template>
-  <div class="h-full bg-gray-200 p-6 rounded-md">
-    <h3 class="text-red-500 text-xl mb-4">{{ title }}</h3>
+  <div class="h-full bg-white p-6 rounded-md hover:shadow-md transition duration-300 ease-in-out">
+    <h3 class="text-xl font-medium text-gray-900 mb-4">{{ title }}</h3>
     <p class="mb-6">
       {{ text }}
     </p>
     <a class="flex items-center">
       <span class="flex-grow flex flex-col">
-        <span class="title-font text-gray-900">Lehrzeit: {{ duration }}</span>
-        <span class="text-gray-500 text-gray-900">Berufsschule: {{ school }}</span>
+        <span class="title-font text-gray-500">Lehrzeit: {{ duration }}</span>
+        <span class="text-gray-500 text-gray-500">Berufsschule: {{ school }}</span>
       </span>
       <a
         href="mailto:info@branner.at"

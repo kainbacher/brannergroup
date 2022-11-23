@@ -10,15 +10,11 @@ Bist Du Lkw-Mechaniker/in, Landmaschinenmechaniker/in oder KFZ-Techniker/in
 
 dann suchen wir Dich zur Verstärkung unseres Teams als Techniker/in für unseren LKW-Fuhrpark und Instandhaltung
 
-
-
 ### Aufgaben:
 
 * Instandhaltung, Reparatur und Wartung von Lastkraftwagen, Maschinen, Fahrzeugen und Anlagen innerhalb unserer Firmengruppe
 * Fehlerdiagnosen und Fehlerbehebung
 * Überwachung von Serviceintervallen und Prüfungsterminen
-
-
 
 ### Anforderungen:
 
@@ -37,6 +33,8 @@ dann suchen wir Dich zur Verstärkung unseres Teams als Techniker/in für unsere
 * Das Mindestentgelt für diese Stelle liegt über dem Kollektivvertrag und orientiert sich am Vorarlberger Arbeitsmarkt.
 
 Interessiert? Dann freuen wir uns auf Deine Bewerbung oder ruf uns einfach an!
+
+
 
 **Selina Grundner**
 05523 51141 18

@@ -12,7 +12,7 @@
           </h1>
           <div>
             <a
-              href="mailto:dispo@branner.at"
+              href="mailto:info@branner.at"
               title="Initiativbewerbung per E-Mail"
               class="bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0"
             >

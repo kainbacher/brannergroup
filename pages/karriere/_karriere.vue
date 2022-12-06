@@ -48,7 +48,8 @@
             <nuxt-content :document="post" />
           </article>
           <a
-            href="mailto:dispo@branner.at"
+            href="mailto:info@branner.at"
+            title="Bewerben"
             class="mr-5 bg-red-500 text-white border-0 py-1 px-3 focus:outline-none hover:bg-red-600 rounded text-base mt-4 md:mt-0 inline-flex items-center"
           >
             <svg

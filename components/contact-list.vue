@@ -135,7 +135,7 @@
           </p>
         </contact-card>
         <contact-card
-          name="Branner Entsorgung"
+          name="Entsorgung"
           image="/branner-entsorgung.jpg"
           url="https://www.branner-entsorgung.at/"
         >

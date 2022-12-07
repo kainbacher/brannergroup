@@ -1,8 +1,8 @@
 ---
 visible: true
 createdAt: 2022-11-23T11:34:36.610Z
-title: MitarbeiterIn Sandstrahlen, Verzinken, Lackiervorbereitung Vollzeit (w/m)
-section: Branner Oberflächenbehandlung
+title: MitarbeiterIn Sandstrahlen, Verzinken, Lackiervorbereitung Vollzeit (w/m/d)
+section: Oberflächenbeh.
 ---
 **Die Branner Unternehmensgruppe umfasst mehrere Standorte in Vorarlberg und bietet ihren Kunden in jedem Tätigkeitsbereich ein breites Leistungsspektrum von höchster Qualität.**
 

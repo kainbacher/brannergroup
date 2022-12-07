@@ -49,16 +49,7 @@ collections:
           label: 'Sektion',
           name: 'section',
           widget: 'select',
-          options:
-            [
-              '',
-              'Branner Group',
-              'Branner Mobility',
-              'Branner Fitness',
-              'Branner Erdenwerk',
-              'Branner Entsorgung',
-              'Branner Oberflächenbehandlung',
-            ],
+          options: ['', 'Branner Group', 'Mobility', 'Fitness', 'Erdenwerk', 'Entsorgung', 'Oberflächenbeh.'],
           required: false,
         }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }
@@ -77,16 +68,7 @@ collections:
           label: 'Sektion',
           name: 'section',
           widget: 'select',
-          options:
-            [
-              '',
-              'Branner Group',
-              'Branner Mobility',
-              'Branner Fitness',
-              'Branner Erdenwerk',
-              'Branner Entsorgung',
-              'Branner Oberflächenbehandlung',
-            ],
+          options: ['', 'Branner Group', 'Mobility', 'Fitness', 'Erdenwerk', 'Entsorgung', 'Oberflächenbeh.'],
           required: false,
         }
       - { label: 'Body', name: 'body', widget: 'markdown', required: false }

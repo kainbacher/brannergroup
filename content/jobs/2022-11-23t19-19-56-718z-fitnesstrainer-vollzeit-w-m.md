@@ -1,10 +1,10 @@
 ---
 visible: true
 createdAt: 2022-11-23T19:19:56.718Z
-title: Fitnesstrainer Vollzeit (w/m)
+title: Fitnesstrainer Vollzeit (w/m/d)
 description: Wir suchen zur Verstärkung unseres Teams eine Fitnesstrainer/in für
   Vollzeit in Rankweil ab sofort.
-section: Branner Fitness
+section: Fitness
 ---
 ### Anforderungsprofil
 

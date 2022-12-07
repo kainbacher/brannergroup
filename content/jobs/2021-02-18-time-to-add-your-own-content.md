@@ -1,10 +1,10 @@
 ---
 visible: true
 createdAt: 2022-10-25T05:52:01.997Z
-title: Physiotherapeut/in Voll- oder Teilzeit (Rankweil)
-description: Wir suchen für unsere Fitness Wellness Physiotherapie eine/n
-  Mitarbeiter/in ab September.
-section: Branner Fitness
+title: Physiotherapeut/in Voll- oder Teilzeit (m/w/d)
+description: Wir suchen für unsere Fitness Wellness Physiotherapie in Rankweil
+  eine/n Mitarbeiter/in ab September.
+section: Fitness
 ---
 ## Wir bieten
 

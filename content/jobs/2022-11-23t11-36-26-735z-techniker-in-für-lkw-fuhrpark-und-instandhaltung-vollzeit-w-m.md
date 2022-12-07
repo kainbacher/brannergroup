@@ -1,9 +1,9 @@
 ---
 visible: true
 createdAt: 2022-11-23T11:36:26.735Z
-title: Techniker/in für LKW-Fuhrpark und Instandhaltung Vollzeit (w/m)
+title: Techniker/in für LKW-Fuhrpark und Instandhaltung Vollzeit (w/m/d)
 description: ""
-section: Branner Oberflächenbehandlung
+section: Mobility
 ---
 Die Branner Unternehmensgruppe umfasst mehrere Standorte in Vorarlberg und bietet ihren Kunden in jedem Tätigkeitsbereich ein breites Leistungsspektrum von höchster Qualität. 
 

@@ -18,6 +18,17 @@
 
 <script>
 export default {
+  head: {
+    title: "Branner - Mobility, Fitness, Erdenwerk, Entsorgung, Oberflächenbehandlung",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Entdecken Sie die Vielfalt der Branner Gruppe - Mobility, Fitness, Erdenwerk, Entsorgung, Oberflächenbehandlung",
+      },
+    ],
+  },
   async asyncData({ $content, error }) {
     let posts;
     try {

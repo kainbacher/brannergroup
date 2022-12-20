@@ -1,6 +1,6 @@
 ---
 visible: true
-createdAt: 2021-02-18
+createdAt: 2021-02-16T23:00:00.000Z
 title: Neuer Standort in Nüziders
 description: >-
   Das ist der erste Artikel. Addidit nunc: finita tua celatos vacuos Morpheus

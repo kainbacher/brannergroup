@@ -86,3 +86,19 @@
     </section>
   </main>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Impressum - Branner Gruppe GmbH",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Impressum der Branner Gruppe GmbH. Hier finden Sie alle wichtigen Informationen zu unserem Unternehmen.",
+      },
+    ],
+  },
+}
+</script>

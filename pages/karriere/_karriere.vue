@@ -93,5 +93,18 @@ export default {
       return date.toLocaleDateString(process.env.lang) || "";
     },
   },
+  head() {
+    return {
+      title: this.post.seo_title || this.post.title || "Karrriere | Branner Gruppe GmbH",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.post.seo_description || this.post.description ||
+            "Wir suchen dich! Wir sind ein dynamisches Unternehmen mit einem breiten Spektrum an Dienstleistungen. Wir suchen Mitarbeiter, die mit uns gemeinsam an der Zukunft unserer Branche arbeiten wollen.",
+        },
+      ],
+    };
+  },
 };
 </script>

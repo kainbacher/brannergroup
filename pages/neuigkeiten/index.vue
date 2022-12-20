@@ -16,6 +16,17 @@
 
 <script>
 export default {
+  head: {
+    title: "Neuigkeiten | Branner Gruppe GmbH",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Neuigkeiten aus der Branner Gruppe GmbH - Mobility, Fitness, Erdenwerk, Entsorgung, Oberflächenbehandlung",
+      },
+    ],
+  },
   async asyncData({ $content, error }) {
     let posts;
     try {

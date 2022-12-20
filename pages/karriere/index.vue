@@ -28,6 +28,17 @@
 
 <script>
 export default {
+  head: {
+    title: "Karrriere | Branner Gruppe GmbH",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Wir suchen dich! Wir sind ein dynamisches Unternehmen mit einem breiten Spektrum an Dienstleistungen. Wir suchen Mitarbeiter, die mit uns gemeinsam an der Zukunft unserer Branche arbeiten wollen.",
+      },
+    ],
+  },
   async asyncData({ $content, error }) {
     let jobs;
     try {

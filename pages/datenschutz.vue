@@ -77,3 +77,19 @@
     </section>
   </main>
 </template>
+
+<script>
+export default {
+  head: {
+    title: "Datenschutz - Branner Gruppe GmbH",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Datenschutzerklärung der Branner Gruppe GmbH. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns an die Regeln der Datenschutzgesetze.",
+      },
+    ],
+  },
+};
+</script>

@@ -19,7 +19,7 @@
 <script>
 export default {
   head: {
-    title: "Branner - Mobility, Fitness, Erdenwerk, Entsorgung, Oberflächenbehandlung",
+    title: "Branner - Mobility, Fitness, Erdenwerk, Entsorgung, Oberflächen",
     meta: [
       {
         hid: "description",

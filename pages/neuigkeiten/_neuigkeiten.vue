@@ -6,10 +6,7 @@
           <nuxt-link
             to="/neuigkeiten"
             title="Zurück zur Übersicht"
-            class="
-            inline-flex items-center bg-gray-100 text-gray-500 border py-1 px-3 rounded text-base mb-8
-            focus:outline-none
-            hover:bg-white"
+            class="inline-flex items-center bg-gray-100 text-gray-500 border py-1 px-3 rounded text-base mb-8 focus:outline-none hover:bg-white"
           >
             <svg
               class="mr-2"
@@ -63,12 +60,10 @@
 export default {
   async asyncData({ $content, params, error }) {
     let post;
-    console.log(params);
     try {
       post = await $content("blog/" + params.neuigkeiten)
         .where({ visible: true })
         .fetch();
-      console.log(post);
     } catch (e) {
       error({ message: "Neuigkeit nicht gefunden" });
     }
@@ -79,6 +74,19 @@ export default {
       const date = new Date(dateString);
       return date.toLocaleDateString(process.env.lang) || "";
     },
+  },
+  head() {
+    return {
+      title: this.post.seo_title || this.post.title || "Neuigkeiten | Branner Gruppe GmbH",
+      meta: [
+        {
+          hid: "description",
+          name: "description",
+          content: this.post.seo_description || this.post.description ||
+            "Neuigkeiten aus der Branner Gruppe GmbH - Mobility, Fitness, Erdenwerk, Entsorgung, Oberflächenbehandlung",
+        },
+      ],
+    };
   },
 };
 </script>

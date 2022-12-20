@@ -79,5 +79,17 @@
 </template>
 
 <script>
-export default {};
+export default {
+  head: {
+    title: "Lehre bei Branner - Ausbildung mit Zukunft",
+    meta: [
+      {
+        hid: "description",
+        name: "description",
+        content:
+          "Wir bieten dir 4 verschiedene Lehrberufe in unseren Standorten an. Lerne bei uns die Grundlagen für deinen Traumberuf und starte mit uns in dein Berufsleben.",
+      },
+    ],
+  },
+};
 </script>

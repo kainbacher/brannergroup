@@ -32,7 +32,7 @@ export default {
   async asyncData({ $content, error }) {
     let posts;
     try {
-      posts = await $content("blog").where({ visible: true }).limit(2).fetch();
+      posts = await $content("blog").where({ visible: true }).sortBy('createdAt', 'desc').limit(4).fetch();
     } catch (e) {
       error({ message: "Keine Neuigkeiten vorhanden." });
     }

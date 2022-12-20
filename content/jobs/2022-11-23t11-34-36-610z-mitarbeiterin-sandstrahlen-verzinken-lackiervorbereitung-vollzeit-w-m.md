@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 createdAt: 2022-11-23T11:34:36.610Z
 title: MitarbeiterIn Sandstrahlen, Verzinken, Lackiervorbereitung Vollzeit (w/m/d)
 section: Oberflächenbeh.

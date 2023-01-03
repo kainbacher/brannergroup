@@ -1,5 +1,5 @@
 ---
-visible: true
+visible: false
 createdAt: 2021-02-16T23:00:00.000Z
 title: Neuer Standort in Nüziders
 description: >-

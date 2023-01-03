@@ -7,7 +7,7 @@
       <div class="container px-5 mb-16 border-b-b p4-4 pb-8 md:w-3/5 mx-auto">
         <div class="mb-8 flex flex-row justify-between items-center">
           <h1 class="sm:text-3xl text-3xl font-medium title-font text-gray-900 mb-2">
-            Stellenausscrhreibungen<br />
+            Stellenausschreibungen<br />
             <span class="text-gray-500">Wir suchen dich!</span>
           </h1>
           <div>

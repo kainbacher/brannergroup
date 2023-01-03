@@ -51,7 +51,7 @@
                 <img
                   src="/nissan.png"
                   alt="Nissan"
-                  class="h-24 w-24"
+                  class="h-20 w-20"
                   height="100"
                   width="100"
                 />
@@ -60,11 +60,20 @@
                 <img
                   src="/hofele.png"
                   alt="Hofele"
-                  class="h-24 w-24"
+                  class="h-20 w-20"
                   height="100"
                   width="100"
                 />
               </a>
+              <span>
+                <img
+                  src="/suzuki.png"
+                  alt="Suzuki"
+                  class="h-20 w-20"
+                  height="100"
+                  width="100"
+                />
+              </span>
             </div>
           </div>
         </contact-card>
